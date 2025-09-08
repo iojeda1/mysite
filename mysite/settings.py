@@ -27,7 +27,7 @@ SECRET_KEY = 'os.environ.get("SECRET_KEY", "dev-secret")'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =  True
 
-ALLOWED_HOSTS = ['iojeda.pythonanywhere.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['iojeda1.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
